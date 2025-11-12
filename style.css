@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+} 
+
+header {
+  background-color: rgb(71, 126, 71);
+  text-align: center;
+  padding: 15px;
+  color: white;
+
+}
+
+nav {
+  background-color: aquamarine;
+  text-align: center;
+  padding: 8px;
+}
+
+nav li { 
+  display: inline-block;
+  margin-left:25px;
+}
+
+#enlaces {
+  display: block;
+
+}
+
+aside {
+  /*position: relative;*/
+  float: left;
+  height: 600px; 
+  width: 35.55304740406321%; /* Pasar a %: 378*100/1063,2= 35,55304740406321 */
+  background-color: antiquewhite;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+#foto1 {
+  height: 200px;
+  width: 300px; /*   */
+  display: block;
+  margin: 10px ;
+}
+
+#foto2 {
+  height: 200px;
+  width: 300px;
+  display: block;
+  margin: 10px ;
+}
+
+main {
+  margin-left: 430px;
+  padding: 20px; 
+  width: 92.92701279157261%; /* 988*100/1063,2= 92,92701279157261 */
+  background-color: antiquewhite;
+  border: 1px solid black;
+  text-align: justify;
+  height: 580px;
+}
+
+section {
+  height: 400px;
+  width: 56,31067961165049% ; /* 580*100/988= 56,31067961165049 */
+  background-color: azure;
+  margin: 60px;
+}
+  
+section form>div {
+  margin: 20px;
+  padding-left: 20px;
+  border: 1px solid black;
+
+}
+
+h3 {
+  text-align: center;
+}
+
+form>p {
+  margin-left: 40px;
+
+}
+
+#boton {
+  margin: 0 300px; 
+  width: 100px;
+}
+
+
+form select {
+  color: blue;
+}
+
+div>input {
+  padding: 0 10px;
+}
+
